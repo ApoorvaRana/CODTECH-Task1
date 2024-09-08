@@ -13,7 +13,7 @@
 
 
 
-**# PROJECT: To-Do List Web Application**
+# **PROJECT: To-Do List Web Application**
 
 ![Screenshot 2024-09-08 110747](https://github.com/user-attachments/assets/e3979655-7419-4673-851f-c5a6116f3342)
 
