@@ -13,7 +13,7 @@
 
 
 
-# **To-Do List Web Application**
+**# PROJECT: To-Do List Web Application**
 
 ![Screenshot 2024-09-08 110747](https://github.com/user-attachments/assets/e3979655-7419-4673-851f-c5a6116f3342)
 
@@ -39,7 +39,7 @@ The main objective of this project is to build an intuitive task management appl
 - **Filter Functionality:** The application provides filtering options that allow users to focus on specific task categories, such as active tasks or overdue tasks that haven't been completed.
 - **Real-Time Interaction:** The tasks update in real-time as users add, edit, or delete them, ensuring an interactive experience without the need for page reloads.
 
-### Applications
+### Application
 This application can be used in daily task management, allowing users to:
 
 - Plan and organize tasks with deadlines.
