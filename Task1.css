@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #fbc2eb 0%, #a18cd1 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+    width: 400px;
+    max-height: 85vh;
+    overflow-y: auto;
+    text-align: center;
+}
+header h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+.input-group {
+    margin-bottom: 20px;
+}
+.input-group input {
+    padding: 10px;
+    width: 70%;
+    border: 2px solid #a18cd1;
+    border-radius: 25px;
+    outline: none;
+    font-size: 1em;
+    margin-bottom: 10px;
+    transition: border-color 0.3s ease-in-out;
+}
+.input-group input:focus {
+    border-color: #fbc2eb;
+}
+.input-group button {
+    padding: 10px;
+    border: none;
+    background-color: #a18cd1;
+    color: white;
+    font-size: 1em;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+.input-group button:hover {
+    background-color: #fbc2eb;
+}
+.filters {
+    margin: 20px 0;
+}
+.filter-btn {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+.filter-btn.active {
+    background-color: #a18cd1;
+    color: white;
+}
+.filter-btn:hover {
+    background-color: #d1c4e9;
+}
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+#task-list li {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+#task-list li.completed {
+    text-decoration: line-through;
+    background-color: #d3d3d3;
+}
+#task-list li .task-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#task-list li button {
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#task-list li button.edit-btn {
+    background-color: #3498db;
+}
+#task-list li button:hover {
+    background-color: #c0392b;
+}
+#task-list li button.edit-btn:hover {
+    background-color: #2980b9;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #a18cd1;
+    border-radius: 10px;
+}
